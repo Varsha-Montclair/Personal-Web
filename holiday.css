@@ -1,0 +1,221 @@
+html {
+  height: 100%;
+  width: 100%;
+  
+}
+body{
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-image:url("mandala-design-background_79603-2151.avif");
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+.circle{
+  position:absolute;
+   top:50%;
+  left:70%;
+  height:450px;
+  width:450px;
+  border:2px solid #ffc40c ;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #ffc40c ;
+}
+.circle::before{
+  content: " ";
+  height:100%;
+  width:100%;
+  border:4px dotted white;
+  position:absolute;
+  border-radius:50%;
+  top:-4px;
+  left:-4px;
+}
+
+#wire {
+  text-align:center;
+  white-space: nowrap;
+  position: absolute;
+  padding:0;
+  width:100%;
+  top: -80px;
+  border-bottom: 3px solid #222;
+  height: 75px;
+  
+}
+ #wire li{
+   position:relative;
+   list-style:none;
+   margin:0;
+   padding:0;
+   display:inline-block;
+   width: 15px;
+   height: 30px;
+   border-radius: 50%;
+   top: 75px;
+   background: #fff;
+   /*animation stuff here*/
+   animation-name:even-flash;
+   animation-duration:1s;
+   animation-iteration-count:infinite;
+   animation-fill-mode:both;
+ }
+#wire li:nth-child(odd){
+  animation-name:odd-flash;
+}
+#wire li:before{
+  content:"";
+  position:absolute;
+  width:14px;
+  height:10px;
+  border-radius:4px;
+  top:-5px;
+  left:0;
+  background:#444;
+  
+}
+@keyframes even-flash{
+  0%, 100%{
+  background:rgba(0, 1, 1, 0.5);
+  box-shadow:0px 2px 20px 4px rgba(0, 1, 1, 0.5) ;
+  }
+  50%{
+    background:rgba(255,230,65,0.5);
+    box-shadow:0px 2px 20px 4px rgba(255,230,65,0.3);
+  }
+}
+
+@keyframes odd-flash{
+  50%{
+  background:rgba(0, 0.91, 0.73, 0.14);
+  box-shadow:0px 2px 20px 4px rgba(0, 0.91, 0.73, 0.14) ;
+  }
+  0%, 100%{
+    background:rgba(255,65,185,0.5);
+    box-shadow:0px 2px 20px 4px rgba(255,65,185,0.3);
+  }
+}
+
+
+h1{
+  margin: 25px;
+  text-align: center;
+  font-size: 50px;
+  color:#534b18 ;
+  font-family: 'Courgette', cursive;
+}
+
+img{
+  width:80%;
+  height:70%;
+  margin:-50px;
+  margin-left:70px;
+  
+}
+p{
+  margin:100px;
+  margin-left: 100px;
+  width:280px;
+   color: #800000;
+  font-size:20px;
+}
+.pongal{
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  width: 200px;
+  height:200px;
+}
+#playPauseBTN{
+  position:absolute;
+  top: 500px;
+  left: 1450px;
+  width: 200px;
+  height:50px;
+  background-color: #f96a0b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.pongal1{
+  position: absolute;
+  top: 450px;
+  left: 80px;
+  width: 200px;
+  height:200px;
+}
+.para1{
+  position: absolute;
+  top:350px;
+  right: 750px;
+   color: #800000;
+  font-size:20px;
+}
+.button{
+  position:absolute;
+  top: 80px;
+  left: 400px;
+  width: 200px;
+  height:50px;
+  border-radius: 30px;
+  background-color: #d24c04;
+}
+.para2{
+  position: absolute;
+  top:450px;
+  right:-100px;
+   color: #800000;
+  font-size:20px;
+  font-family: 'Oswald', sans-serif;
+}
+.flower{
+  position: absolute;
+  top:650px;
+  right: 50px;
+  width: 160%;
+  height:30%;
+}
+.flower2{
+  position: absolute;
+  top:80px;
+  left: 1420px;
+  width: 16%;
+  height:30%;
+}
+.flower3{
+  position: absolute;
+  top:280px;
+  left: 1420px;
+  width: 16%;
+  height:30%;
+}
+.flower4{
+  position: absolute;
+  top:80px;
+  right: 1520px;
+  width: 16%;
+  height:30%;
+}
+.flower5{
+   position: absolute;
+   top:280px;
+   right: 1520px;
+   width: 16%;
+   height:30%;
+}
+a{
+  color:darkred;
+  position: absolute;
+   top:100px;
+   right: 120px;
+} 
+.Homebutton{
+  position: absolute;
+   top:280px;
+   right: 120px;
+  
+}

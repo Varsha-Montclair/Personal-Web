@@ -1,0 +1,134 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(#e1ee2b, #737925);
+}
+#map{
+  width:400px;
+  height:500px;
+  border:10px outset ;
+}
+#park{
+  width:400px;
+  height:500px;
+  border:10px ridge;
+}
+#eats{
+  width:400px;
+  height:500px;
+  border:10px groove ;
+}
+.marina{
+  width:400px;
+  height:500px;
+  border:10px groove ;
+}
+
+.outer{
+  color:white;
+   text-shadow: 2px 2px 5px #de0ced;
+  text-align:center;
+  font-family: 'Dancing Script', cursive;
+
+}
+button{
+  border-radius: 25px;
+  font-size:25px;
+  font-family: 'Ribeye', serif;
+}
+.second{
+  background-color:#3d5c1e;
+   text-shadow: 2px 2px 5px #32e23d;
+  color:white;
+  text-align:center;
+  font-family: 'Dancing Script', cursive;
+}
+.inner{
+  background-color:#72655f;
+   text-shadow: 2px 2px 5px #e9f53d;
+  color:white;
+  text-align:center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.link{
+  color:#d7ef25;
+  display: block;
+}
+.third{
+  background-color:#b4418a;
+  text-shadow: 2px 2px 5px #3210da;
+  color:#fcfcfc;
+  text-align:center;
+  font-family: 'Dancing Script', cursive;
+}
+.firstimg{
+  width:400px;
+  float:left ;
+  padding-left: 10px;
+  border-radius:20px;
+  
+  
+}
+.secondimg{
+  width:400px;
+  float:right;
+  padding-right: 10px;
+  border-radius:20px;
+  
+}
+.decoration{
+  width:30px;
+opacity:0.8;
+}
+
+.styletext{
+  color: #f2ff3d;
+  text-align: center;
+  font-family:'Dancing Script',Cursive;
+}
+.Buttonone{
+  margin-left:650px;
+  text-align:center;
+  font-family: 'Caveat', cursive;
+ 
+}
+.Buttontwo{
+  font-family: 'Caveat', cursive;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+.item {
+  margin: 5px;
+  width:450px;
+  height:350px;
+}
+.section{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+.textbox1{
+  display: flex;
+  justify-content: space-evenly;
+}
+.textbox2{
+  display: flex;
+  justify-content: space-evenly;
+}
+p{
+  width:450px;
+  text-align:center;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+font-size: 25px;
+}
+
+hr{
+border-top: 5px solid #dfe228;
+ 
+}
